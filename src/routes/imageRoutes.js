@@ -3,6 +3,6 @@ const { getImageUrl } = require("../controllers/imageController");
 
 const router = express.Router();
 
-router.get("/image/:publicId", getImageUrl);
+router.get("/:publicId", getImageUrl);
 
 module.exports = router;
